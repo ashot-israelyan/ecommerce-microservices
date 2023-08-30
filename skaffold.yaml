@@ -10,7 +10,7 @@ build:
             dest: .
       docker:
         dockerfile: Dockerfile
-    - image: ashotisraelyan/ticketing-client
+    - image: ashotisraelyan/client
       context: client
       docker:
         dockerfile: Dockerfile
